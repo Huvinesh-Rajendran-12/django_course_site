@@ -24,7 +24,7 @@ Find the best meetups for you
     <h2>Upcoming Meetups</h2>
     <ol>
         {% for meetup in meetups %}
-        {% include 'meetups/includes/meetup-item.html' with title=mmetup.title location=meetup.location %}
+        {% include 'meetups/includes/meetup-item.html' with title=meetup.title location='New York' image=meetup.image.url slug=meetup.slug %}
         {% endfor %}
     </ol>
 </section>
