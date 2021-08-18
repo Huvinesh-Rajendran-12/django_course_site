@@ -9,7 +9,7 @@ def welcome(request):
          'slug':'a-first-meetup'},
         {'title': 'A Second Meetup',
          'location':'Paris',
-         'slug': 'a-second-meetup'}
+         'slug': 'a-second-meetup'},
         
     ]
     return render(request,'meetups/welcome.html',{
